@@ -16,7 +16,7 @@ Chrome rozšíření pro automatické vyplňování Assignee, Reviewers a Labels
 
 ```bash
 git clone <repository-url>
-cd gitlab.extension
+cd gitlab.mr.autofill
 ```
 
 ### 2. Ikony jsou již připravené
