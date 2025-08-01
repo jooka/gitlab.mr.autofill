@@ -792,8 +792,5 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
     autoFill.init();
   } else if (request.action === 'testFill') {
     autoFill.fillForm();
-  } else if (request.action === 'toggleDebug') {
-    autoFill.debug = request.debugMode;
-    console.log(`Debug mód ${request.debugMode ? 'zapnut' : 'vypnut'}`);
   }
 }); 

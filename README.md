@@ -112,10 +112,8 @@ gitlab.extension/
 3. Zkontrolujte konzoli prohlížeče pro chybové zprávy
 4. Použijte tlačítko "Testovat na aktuální stránce" v popup rozšíření
 
-### Debugging nástroje
-- **Konzole prohlížeče**: Otevřete F12 a sledujte zprávy s prefixem `[GitLab MR Auto Fill]`
-- **DOM Analyzer**: Otevřete `debug-gitlab.html` pro analýzu struktury GitLab stránky
-- **Test selektorů**: Zkopírujte obsah `test-selectors.js` do konzole prohlížeče na GitLab stránce
+### Řešení problémů
+- **Konzole prohlížeče**: Otevřete F12 a sledujte chybové zprávy
 - **Manuální test**: Použijte tlačítko "Testovat na aktuální stránce" v popup rozšíření
 
 ### Automatické vyplňování nefunguje
